@@ -11,7 +11,6 @@
   inputs.src-jalali_nim-main.ref   = "refs/heads/main";
   inputs.src-jalali_nim-main.owner = "hamidb80";
   inputs.src-jalali_nim-main.repo  = "jalili-nim";
-  inputs.src-jalali_nim-main.dir   = "";
   inputs.src-jalali_nim-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
